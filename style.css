@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: whitesmoke;
+   
+}
+
+
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about {
+    
+    padding: 0px 900px;
+    
+}
+
+.bio {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.logo {
+    position: absolute;
+    height: auto;
+    left: 60px;
+    top: 100px;
+    width: 250px;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+}
+
+ul{
+    margin-left: 0px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    
+    line-height: 100px;
+}
+
+ul li a{
+    
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 0 20px;
+}
+
+ul li a:hover {
+    color: grey;
+}
+
+.videowrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 0px;
+    height: 80%;
+    width: 80%;
+}
+
+form {
+    width: 300px;
+    padding: 150px 600px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+input, textarea {
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(0,0,0);
+}
+
+.list {
+    padding: 100px 500px;
+}
+
+.imglist {
+    padding: 100px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    padding-bottom: 25px;
+    padding: 10px;
+    background-color: bisque;
+}
